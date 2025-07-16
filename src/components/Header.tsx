@@ -16,20 +16,6 @@ const Header = () => {
           </Badge>
         </div>
         
-        <nav className="hidden md:flex items-center gap-6">
-          <a href="#map" className="text-sm font-medium hover:text-primary transition-colors">
-            Live Map
-          </a>
-          <a href="#community" className="text-sm font-medium hover:text-primary transition-colors">
-            Community
-          </a>
-          <a href="#analytics" className="text-sm font-medium hover:text-primary transition-colors">
-            Analytics
-          </a>
-          <a href="#about" className="text-sm font-medium hover:text-primary transition-colors">
-            About
-          </a>
-        </nav>
 
         <div className="flex items-center gap-2">
           <div className="hidden sm:flex items-center gap-2 text-sm text-muted-foreground">

@@ -31,23 +31,14 @@ const HeroSection = () => {
                 </span>
               </h1>
               <p className="text-xl text-muted-foreground max-w-2xl">
-                Bangalore's first FOSS, P2P, privacy-first traffic management system. 
-                Built by the community, owned by the community, transparent by design.
+                Join the movement to revolutionize traffic management through community collaboration and open-source innovation.
               </p>
             </div>
 
             <div className="flex flex-wrap gap-4">
-              <Button variant="hero" size="lg" className="animate-pulse-glow">
-                <GitBranch className="h-4 w-4" />
-                View on GitHub
-              </Button>
               <Button variant="community" size="lg">
                 <Users className="h-4 w-4" />
                 Join Community
-              </Button>
-              <Button variant="outline" size="lg">
-                <Eye className="h-4 w-4" />
-                Live Demo
               </Button>
             </div>
 

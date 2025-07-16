@@ -1,8 +1,6 @@
 import Header from "@/components/Header";
 import HeroSection from "@/components/HeroSection";
-import TrafficMap from "@/components/TrafficMap";
-import CommunityFeatures from "@/components/CommunityFeatures";
-import Analytics from "@/components/Analytics";
+import WaitingList from "@/components/WaitingList";
 import Footer from "@/components/Footer";
 
 const Index = () => {
@@ -11,9 +9,7 @@ const Index = () => {
       <Header />
       <main>
         <HeroSection />
-        <TrafficMap />
-        <CommunityFeatures />
-        <Analytics />
+        <WaitingList />
       </main>
       <Footer />
     </div>
